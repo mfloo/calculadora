@@ -1,0 +1,50 @@
+.container{
+    width: 35%;
+    display: grid;
+    justify-content: center;
+    background: #E7FFFA;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #469F82;
+  }
+  .tittle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align:center;
+    margin: 20px 0 10px 0;
+  }
+  .list{
+    margin-bottom: 19px;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 5px 5px;
+    text-align: center;
+  }
+  .box{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 100px;
+    height: 100px;
+    background: #5AD2AE;
+    border: 1px solid #469F85;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 40px;
+  }
+  .result{
+    background: #fbf8f8;
+    border: 1px solid #469F85;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 0 10px;
+    margin: 15px 0;
+  }
+  .equal{
+    margin-bottom: 20px;
+    padding: 3px;
+    border: 1px solid #469F85;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 40px;
+  }

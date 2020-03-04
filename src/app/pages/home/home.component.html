@@ -1,7 +1,40 @@
-<p>home works!</p>
-<button (click)="suma()">Suma</button>
-<button (click)="resta()">Suma</button>
-<button (click)="multiplicacion()">Suma</button>
-<button (click)="division()">Suma</button>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link href="../home/home.component.scss" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <main class="container">
+      <header class="tittle">Calculadora</header>
+      <p class="result">{{resultado}}</p>
+      <section class="list">
+        <button class="box">9</button>
+        <button class="box">8</button>
+        <button  class="box">7</button>
+        <button (click)="suma()" class="box">+</button>
+        <button class="box">6</button>
+        <button class="box">5</button>
+        <button class="box">4</button>
+        <button (click)="resta()" class="box">-</button>
+        <button class="box">3</button>
+        <button class="box">2</button>
+        <button class="box">1</button>
+        <button (click)="multiplicacion()" class="box">x</button>
+        <button (click)="division()" class="box">0</button>
+        <button class="box">AC</button>
+        <button class="box">C</button>
+        <button (click)="division()" class="box">/</button>
+      </section>
+      <button (click)="division()" class="equal">=</button>
+    </main>
+  </body>
+</html>
 
-<p>Resultado: {{resultado}}</p>
+
+
+
+
+
+
+

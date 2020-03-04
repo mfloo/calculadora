@@ -4,7 +4,6 @@ import { OperadoresService } from './services/operadores.service';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
-
 @NgModule({
   declarations: [
     AppComponent
